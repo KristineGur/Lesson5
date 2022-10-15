@@ -9,37 +9,43 @@
   width: 1366px;
   height: 662px;
   background-image: url("../Images/background.png");
-  color: white;
-  position: relative;
+  z-index: 1;
 }
 
 /* პირველი სექციის სიმაღლე და სიგანე აქვს, ზუსტად რომ გადაედოს */
 .Sect_rgb {
   width: 1366px;
   height: 662px;
-  background-color:rgba(0, 0, 0, 0.3);
+  background-color:rgba(0, 0, 0, 0.4);
   position: absolute;
   top: 0;
+  z-index: 1;
+}
+
+.sect1_div_full_text {
+  width: 1366px;
+  height: 662px;
+  color: white;
+  position: absolute;
+  top: 0;
+  z-index: 2;
 }
 
 .sect1Header {
-  margin-bottom: 60px;
+  padding: 20px 150px 50px 140px;
 }
 
 .headLogo {
-  padding-left: 140px;
-  position: relative;
-  top: 18px;
+  float: left;
   font-size: 15px;
   font-weight: bold;
 }
 
 nav {
   float: right;
-  padding-right: 150px;
 }
 
-.headNav {
+li {
   display: inline;
   margin-left: 40px;
   font-size: 15px;
@@ -89,8 +95,11 @@ nav {
   border: none;
 }
 
+/* იწყება მე-2 სექცია */
 .section2 {
-  width: 100%;
+  width: 1366px;
+  /* position: absolute;
+  top: 662px; */
   background-color: white;
 }
 
@@ -152,33 +161,15 @@ nav {
   left: 0;
 }
 
-footer {
-  width: 100%;
+.footer_main_DIV {
+  width: 1366px;
   background-color: black;
-  position: fixed;
-  bottom: 0;
-  padding-top: 60px;
-  padding-left: 140px;
 }
 
 .footerH3 {
   color: white;
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 20px;
 }
 
 .footP {
   color: white;
-  font-size: 15px;
 }
-
-.iconsDIV {
-  margin-top: 80px;
-  margin-bottom: 20px;
-}
-
-.footIcons {
-  margin-left: 15px;
-}
-
