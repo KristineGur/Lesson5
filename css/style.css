@@ -152,11 +152,33 @@ nav {
   left: 0;
 }
 
-/* footer {
+footer {
   width: 100%;
   background-color: black;
+  position: fixed;
+  bottom: 0;
+  padding-top: 60px;
+  padding-left: 140px;
 }
 
 .footerH3 {
-  font-size: ;
-} */
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footP {
+  color: white;
+  font-size: 15px;
+}
+
+.iconsDIV {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.footIcons {
+  margin-left: 15px;
+}
+
