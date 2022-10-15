@@ -1,0 +1,162 @@
+.conteiner {
+  max-width: 1366px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.section1 {
+  width: 1366px;
+  height: 662px;
+  background-image: url("../Images/background.png");
+  color: white;
+  position: relative;
+}
+
+/* პირველი სექციის სიმაღლე და სიგანე აქვს, ზუსტად რომ გადაედოს */
+.Sect_rgb {
+  width: 1366px;
+  height: 662px;
+  background-color:rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+}
+
+.sect1Header {
+  margin-bottom: 60px;
+}
+
+.headLogo {
+  padding-left: 140px;
+  position: relative;
+  top: 18px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+nav {
+  float: right;
+  padding-right: 150px;
+}
+
+.headNav {
+  display: inline;
+  margin-left: 40px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.sect1Middle {
+  width: 550px;
+  height: 400px;
+  padding-left: 140px;
+  padding-top: 100px;
+}
+
+.sec1Title {
+  font-size: 65px;
+  font-weight: bold;
+}
+
+.sec1P {
+  padding-top: 20px;
+  width: 353px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.sect1H3 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 150px;
+}
+
+.sect1bott {
+  position: absolute;
+  right: 150px;
+  bottom: 70px;
+}
+
+.LEFTicon {
+  padding: 17px;
+  background-color: white;
+  border: none;
+}
+
+.RIGHTicon {
+  padding: 17px;
+  background-color:#5863f8;
+  border: none;
+}
+
+.section2 {
+  width: 100%;
+  background-color: white;
+}
+
+.sect2Div1 {
+  padding-top: 50px;
+  padding-left: 140px;
+  float: left;
+}
+
+.sec2H1 {
+  font-size: 42px;
+  width: 353px;
+  height: 87px;
+  padding-bottom: 25px;
+}
+
+.sect2P1 {
+  padding-bottom: 15px;
+  width: 445px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.sect2butt {
+  width: 184px;
+  height: 50px;
+  background-color: #5863f8;
+  border: none;
+  color: white;
+  font-size: 15px;
+  margin-top: 25px;
+}
+
+.sect2Div2 {
+  position: relative;
+  left: 10px;
+  width: 536px;
+  height: 460px;
+  float: left;
+  margin-left: 130px;
+  margin-top: 50px;
+}
+
+.img1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.img2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.img3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* footer {
+  width: 100%;
+  background-color: black;
+}
+
+.footerH3 {
+  font-size: ;
+} */
