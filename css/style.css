@@ -6,48 +6,59 @@
   position: relative;
 }
 
-/* პირველი სექცია */
+/*                                           პირველი სექცია */
+
+/* Background image-ის შემოტანის გამო გაეწერა სიმაღლის პარამეტრიც. z-index-ებით გაინომრა background image, ბლარი და ტექსტი. ამის გარეშე ტექსტიც იბლარეოდა.*/
 .section1 {
-  width: 1366px;
+  width: 100%;
   height: 662px;
-  background-image: url("../Images/background.png");
-  z-index: 1;
-}
-
-/* პირველი სექციის სიმაღლე და სიგანე აქვს, ზუსტად რომ გადაედოს */
-.Sect_rgb {
-  width: 1366px;
-  height: 662px;
-  background-color:rgba(0, 0, 0, 0.4);
   position: absolute;
-  top: 0;
+  background-image: url("../Images/background.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   z-index: 1;
 }
 
-.sect1_div_full_text {
-  width: 1366px;
-  height: 662px;
-  color: white;
-  font-family: 'Poppins';
+/* ბლარის Div: პირველი სექციის სიმაღლე და სიგანე აქვს, ზუსტად რომ გადაედოს */
+.Sect_rgb {
+  width: 100%;
+  height: 100%;
+  background-color:rgba(0, 0, 0, 0.4);
   position: absolute;
   top: 0;
   z-index: 2;
 }
 
+/* სექციის I დივი */
+.sect1_div_full_text {
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-family: 'Poppins';
+  position: absolute;
+  top: 0;
+  z-index: 3;
+}
+
+/* ჰედერი */
 .sect1Header {
   padding: 20px 150px 50px 140px;
 }
 
+/* ლოგოს ტექსტი */
 .headLogo {
   float: left;
   font-size: 15px;
   font-weight: bold;
 }
 
+/* ნავიაცია */
 nav {
   float: right;
 }
 
+/* ნავიაცია */
 li {
   display: inline;
   margin-left: 40px;
@@ -55,6 +66,7 @@ li {
   font-weight: bold;
 }
 
+/* I სექციის ტექსტი */
 .sect1Middle {
   width: 550px;
   height: 400px;
@@ -80,10 +92,10 @@ li {
   padding-top: 100px;
 }
 
+/* I სექციის ისრები */
 .sect1bott {
-  position: absolute;
-  right: 150px;
-  bottom: 70px;
+  float: right;
+  padding-right: 150px;
 }
 
 .LEFTicon {
@@ -98,19 +110,20 @@ li {
   border: none;
 }
 
-/* მეორე სექცია */
+/*                                           მეორე სექცია */
+
 .section2 {
-  width: 1366px;
-  height: 593px;
-  position: absolute;
+  width: 100%;
+  position: relative;
   top: 662px;
   background-color: white;
   font-family: 'Poppins';
 }
 
+/* II სექციის ტექსტის დივი */
 .sect2Div1 {
+  width: 50%;
   padding-top: 50px;
-  padding-left: 140px;
   float: left;
 }
 
@@ -119,6 +132,7 @@ li {
   width: 353px;
   height: 87px;
   padding-bottom: 25px;
+  padding-left: 100px;
 }
 
 .sect2P1 {
@@ -126,6 +140,7 @@ li {
   width: 445px;
   font-size: 16px;
   line-height: 20px;
+  padding-left: 100px;
 }
 
 .sect2butt {
@@ -137,49 +152,31 @@ li {
   font-size: 15px;
   font-family: 'Poppins';
   margin-top: 25px;
+  margin-left: 100px;
 }
 
+/* II სექციის ფოტოების დივი */
 .sect2Div2 {
-  position: relative;
-  left: 10px;
-  width: 536px;
-  height: 460px;
-  float: left;
-  margin-left: 130px;
-  margin-top: 50px;
+  width: 50%;
+  float: right;
+  text-align: center;
+  padding-top: 50px;
 }
 
-.img1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
 
-.img2 {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
 
-.img3 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
-/* მესამე სექცია */
-footer {
-  position: fixed;
-  bottom: 0;
-}
-
+/*                                            Footer */
 .footer_Box {
   width: 1366px;
-  height: 304px;
+  height: 220px;
+  position: fixed;
+  bottom: 0;
   background-color: black;
-  position: absolute;
-  top: 1255px;
-  padding: 65px 0 0 140px;
+}
+
+.fotter_full_div {
+  width: 80%;
+  margin: 30px;
 }
 
 .footerH3 {
@@ -197,5 +194,5 @@ footer {
 }
 
 .footIcons {
-  margin: 100px 0 5px 15px;
+  margin: 40px 0 5px 0;
 }
